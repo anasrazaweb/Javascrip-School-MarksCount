@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="background">
+            <img src="butterflu log.jpg" class="background-img">
+        </div>
+        <div class="box">
+        <div class="left">
+            <form onsubmit="event.preventDefault()">
+                <div class="book-1">
+                    <label for="">English:</label>
+                    <input id="book1" type="number" placeholder="marks">
+                </div>
+                <div class="book-2">
+                    <label for="">Computer:</label>
+                    <input id="book2" type="number" placeholder="marks">
+                </div>
+                <div class="book-3">
+                    <label for="">Urdu:</label>
+                    <input id="book3" type="number" placeholder="marks">
+                </div>
+                <div class="book-4">
+                    <label for="">Math:</label>
+                    <input id="book4" type="number" placeholder="marks">
+                </div>
+                <div class="book-5">
+                    <label for="">Biology:</label>
+                    <input id="book5" type="number" placeholder="marks">
+                </div>
+            </form>
+            <button class="Button">Calculate</button>
+        </div>
+        <div class="right">
+            <table>
+                <tr>
+                    <td>Total-marks:</td>
+                    <td class="">500</td>
+                </tr>
+                <tr>
+                    <td>Obtained-marks:</td>
+                    <td class="obtain">00</td>
+                </tr>
+                <tr>
+                    <td>Grade:</td>
+                    <td class="Grade">00</td>
+                </tr>
+                <tr>
+                    <td>Persentage:</td>
+                    <td class="per">00</td>
+                </tr>
+                <tr>
+                    <td>Remarks:</td>
+                    <td class="Remarks">00</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
